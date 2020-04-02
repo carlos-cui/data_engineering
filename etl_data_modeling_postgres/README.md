@@ -12,6 +12,8 @@ The star schema will be the best design for this need because it will give analy
 
 ### Schema:
 
+![Image description](https://github.com/carlos-cui/data_engineering/blob/master/etl_data_modeling_postgres/db_schema.jpg)
+
 #### Fact Table
 - songplays - records in log data associated with song plays i.e. records with page NextSong 
     - songplay_id, start_time, user_id, level, song_id, artist_id, session_id, location, user_agent
